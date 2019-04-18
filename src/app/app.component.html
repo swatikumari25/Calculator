@@ -1,0 +1,33 @@
+<h1>Calculator</h1>
+<div class="formstyle">
+  <div class="forms">
+    <div class="row">
+        <input id="text" type="text" class="form-control" [(ngModel)]="values">        
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-primary" value="7" (click)="handleClick($event)" >7</button>
+      <button type="button" class="btn btn-primary" value="8" (click)="handleClick($event)" >8</button>
+      <button type="button" class="btn btn-primary" value="9" (click)="handleClick($event)" >9</button>
+      <button type="button" class="btn btn-primary" value="/" (click)="handleClick($event)" >/</button>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-primary" value="4" (click)="handleClick($event)" >4</button>
+      <button type="button" class="btn btn-primary" value="5" (click)="handleClick($event)" >5</button>
+      <button type="button" class="btn btn-primary" value="6" (click)="handleClick($event)" >6</button>
+      <button type="button" class="btn btn-primary" value="*" (click)="handleClick($event)" >*</button>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-primary" value="1" (click)="handleClick($event)" >1</button>
+      <button type="button" class="btn btn-primary" value="2" (click)="handleClick($event)" >2</button>
+      <button type="button" class="btn btn-primary" value="3" (click)="handleClick($event)" >3</button>
+      <button type="button" class="btn btn-primary" value="-" (click)="handleClick($event)" >-</button>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-primary" value="0" (click)="handleClick($event)" >0</button>
+      <button type="button" class="btn btn-primary" value="C" (click)="delete()" >C</button>
+      <button type="button" class="btn btn-primary" value="=" (click)="calculate()">=</button>
+      <button type="button" class="btn btn-primary" value="+" (click)="handleClick($event)">+</button>
+    </div>    
+  </div>
+</div>
+

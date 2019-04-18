@@ -1,0 +1,42 @@
+
+#text
+{
+width:205px;
+padding:20px;
+margin:5px;
+background-color:white;
+color:black;
+}
+.formstyle
+{
+background-color:black;
+border:1px solid black;
+height:350px;
+margin:auto;
+width:230px;
+
+}
+h1
+{
+text-align:center;
+}
+button
+{
+padding:5px;
+height:50px;
+width:50px;
+margin:2px;
+}
+.forms
+{
+width:400px;
+height:250px;
+margin:auto;
+padding-left:20px;
+padding-top: 15px;
+}
+
+.row{
+    padding-bottom:5px;
+    padding-top: 5px;
+}
